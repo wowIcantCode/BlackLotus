@@ -28,6 +28,15 @@ BlackLotus is an innovative UEFI Bootkit designed specifically for Windows. It i
 Setup by modifying the config.c file by including your C2s hostname or IP address.
 After that compliation should be easy, just keep the included settings in the Visual Studio solution.
 
+## Installation
+
+Download and install EDK2, from https://github.com/tianocore/edk2.
+You can receive install and use instructions from here [https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II.](https://github.com/tianocore/tianocore.github.io/wiki/Windows-systems)
+
+After installing EDK2 you are ready to compile the EFI driver that works with BlackLotus.
+The Visual Studio solution will first compile the driver, and afterwards compile the executable to install the EFI driver, and BlackLotus
+
+
 ## Default Panel Credentials:
 
 - **user**: yukari
